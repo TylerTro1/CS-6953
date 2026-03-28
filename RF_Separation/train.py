@@ -1,7 +1,8 @@
 from torch.utils.data import DataLoader
+from RFSepNet import RFSepNet
 
 dataset = IQSeparationDataset(
-    root="data/train",
+    root="-------",
     segment_length=65536,
     num_sources=2
 )
